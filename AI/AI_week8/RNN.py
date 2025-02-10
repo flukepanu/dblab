@@ -7,7 +7,7 @@ step = 1
 N = 100
 n_train = int(N * 0.7)  # 70% for training
 
-
+df = pd.read_csv('/Users/nutnareetoruen/Desktop/AI/lab1/EPL_20_21.csv')
 # Generate data
 def gen_data(x):
     return (x % pitch) / pitch
